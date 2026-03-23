@@ -1,0 +1,21 @@
+tile_number,section,title,visualization,report_name,summary_metric,default_market,default_issue_focus,depends_on_future_resource,notes
+1,Overview,UK review volume,Metric,PRD EMEA - Overview - 01 - UK Review Volume,Review count,UK,All,No,Landing KPI
+2,Overview,Review volume by brand,Stacked bar,PRD EMEA - Overview - 02 - Review Volume by Brand,Review count by brand,UK,All,No,Keep inclusive of all brands
+3,Overview,Review volume by provider access path,Horizontal bar,PRD EMEA - Overview - 03 - Review Volume by Provider Access Path,Review count by access path,UK,All,No,Direct vs provider access comparison
+4,Overview,Top issue categories,Donut,PRD EMEA - Overview - 04 - Top Issue Categories,Share of reviews by issue category,UK,All,No,Prioritize sign in/up billing RFC
+5,Overview,RFC rate and contact volume,Combo chart,PRD EMEA - Overview - 05 - RFC Rate and Contact Volume,RFC rate and contact volume,UK,RFC,No,Use RFC and contact flags together
+6,Access paths,UK access route breakdown,Horizontal bar,PRD EMEA - Access Paths - 06 - UK Access Route Breakdown,Review count by provider path,UK,All,No,Top-level provider mix
+7,Provider spotlight,NOW - Entertainment Only pain points,Stacked bar,PRD EMEA - Provider Spotlight - 07 - NOW Entertainment Only Pain Points,Issue mix,UK,All,No,Basic tier spotlight
+8,Provider spotlight,NOW - Pay1 Movies pain points,Stacked bar,PRD EMEA - Provider Spotlight - 08 - NOW Pay1 Movies Pain Points,Issue mix,UK,All,No,Movie tier spotlight
+9,Provider spotlight,TNT Sports package pain points,Stacked bar,PRD EMEA - Provider Spotlight - 09 - TNT Sports Package Pain Points,Issue mix,UK,All,No,Full package spotlight
+10,Provider spotlight,Other provider paths,Heat map,PRD EMEA - Provider Spotlight - 10 - Other Provider Paths,Issue mix by provider and scenario,UK,All,No,Catches non-NOW partner scenarios
+11,Journey,Sign-up issues by provider,Horizontal bar,PRD EMEA - Journey - 11 - Sign Up Issues by Provider,Review count,UK,Sign in/up,No,Activation and account creation
+12,Journey,Sign-in issues by provider,Horizontal bar,PRD EMEA - Journey - 12 - Sign In Issues by Provider,Review count,UK,Sign in/up,No,Authentication and entitlement
+13,Journey,Billing and subscription issues by provider,Horizontal bar,PRD EMEA - Journey - 13 - Billing and Subscription Issues by Provider,Review count,UK,Billing & Subscription,No,Provider-owned billing confusion
+14,Journey,Upgrade and add-on issues,Stacked bar,PRD EMEA - Journey - 14 - Upgrade and Add On Issues,Review count by scenario,UK,Billing & Subscription,No,Plan upgrades and add-ons
+15,Journey,Cannot login / cannot access scenario mix,Donut,PRD EMEA - Journey - 15 - Cannot Login Cannot Access Scenario Mix,Scenario share,UK,Sign in/up,No,Sub-scenario breakout
+16,Journey,Provider ownership confusion,Stacked bar,PRD EMEA - Journey - 16 - Provider Ownership Confusion,Review count by ownership confusion flag,UK,All,No,HBO/Max vs provider responsibility
+17,DA flows,DA migration flow usage by provider,Horizontal bar,PRD EMEA - DA Flows - 17 - DA Migration Flow Usage by Provider,Flow volume,UK,All,Yes,Requires DA migration mapping
+18,DA flows,DA flow containment vs escalation,Combo chart,PRD EMEA - DA Flows - 18 - DA Flow Containment vs Escalation,Containment rate and escalation volume,UK,All,Yes,Depends on Advocate Assist and DA outcome data
+19,Support,High-level contact numbers by provider,Metric table,PRD EMEA - Support - 19 - High Level Contact Numbers by Provider,Contact volume and rate,UK,All,No,Provider operational view
+20,Watchlist,Emerging provider pain points,Table,PRD EMEA - Watchlist - 20 - Emerging Provider Pain Points,Week-over-week issue growth,UK,All,Yes,Use latest provider/issues sheet when available
