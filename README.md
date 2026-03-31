@@ -7,7 +7,12 @@ Looker dashboard suite for tracking the **7 highest-impact improvement opportuni
 ```
 .
 ├── docs/
-│   └── CX_Opportunities_Dashboard_Plan_2026.md   # Full plan document (goals, opportunities, dashboard wireframes, data requirements)
+│   ├── CX_Opportunities_Dashboard_Plan_2026.docx  # Word document — full plan (share this!)
+│   ├── CX_Opportunities_Dashboard_Plan_2026.md    # Same plan in Markdown format
+│   └── LOOKER_IMPORT_GUIDE.md                     # Step-by-step instructions for importing into Looker
+│
+├── scripts/
+│   └── generate_word_doc.py                       # Script to regenerate the .docx if you edit the plan
 │
 └── lookml/
     ├── cx_opportunities.model.lkml                # LookML model definition
@@ -57,8 +62,9 @@ Looker dashboard suite for tracking the **7 highest-impact improvement opportuni
 
 ## Getting Started
 
-1. **Review the plan** — Start with `docs/CX_Opportunities_Dashboard_Plan_2026.md` for the full strategy, data requirements, and implementation phases.
-2. **Set up the data model** — Run the seed SQL scripts in `lookml/seed_data/` to create the dimension tables.
-3. **Configure the model** — Update `connection` in `cx_opportunities.model.lkml` to point to your data warehouse.
-4. **Deploy dashboards** — Import the `.dashboard.lookml` files into your Looker instance.
-5. **Customize** — Adjust table/schema names in the view files to match your data warehouse naming conventions.
+1. **Share the plan** — Download and distribute `docs/CX_Opportunities_Dashboard_Plan_2026.docx` (the Word doc) for stakeholder review.
+2. **Import into Looker** — Follow the step-by-step guide in `docs/LOOKER_IMPORT_GUIDE.md` (three options: Git clone, copy-paste, or CI/CD push).
+3. **Run seed SQL** — Execute the scripts in `lookml/seed_data/` to create the goals and opportunities dimension tables.
+4. **Configure the model** — Update `connection` in `cx_opportunities.model.lkml` to point to your data warehouse.
+5. **Update table names** — Adjust `sql_table_name` in each view file to match your warehouse schema.
+6. **Validate and deploy** — Use Looker's "Validate LookML" button, then deploy to production.
